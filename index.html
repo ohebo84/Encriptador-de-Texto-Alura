@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Oscar Iván Herrera Bonilla">
+        <title>Encriptador de Texto - Alura</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+                <img class="logo__encabezado" src="./assets/imagenes/alura.svg" alt="Logo Alura">
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="izquierda">
+                    <textarea id="ingresoTexto" class="ingreso__texto" placeholder="Ingrese texto aqui" name="" id=""></textarea>
+                    <div class="izquierda__pie">
+                        <img src="./assets/imagenes/signoAdmiracion.svg" alt="Advertencia">
+                        <span>Solo letras minúsculas. Sin acentos</span>
+                        <div class="izquierda__botones">
+                            <button id="botonEncriptar" class="izquierda__botones__encriptar">Encriptar</button>
+                            <button id="botonDesencriptar" class="izquierda__botones__desencriptar">Desencriptar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="derecha" class="derecha">
+                    <img id="muñeco" class="imagen__muñeco" src="./assets/imagenes/muñeco.svg" alt="Hombre buscando">
+                    <textarea id="mensajeFinal" class="mensaje__informativo" placeholder="Ningún mensaje fue encontrado"></textarea>
+                    <p id="textoEncripDesencrip" class="mensaje__texto__encriptar__desencriptar">Ingresa el texto que deseas encriptar o desencriptar</p>
+                    <button id="botonCopiar" class="boton__copiar oculto">Copiar</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h4>Desarrollado por: Oscar Iván Herrera Bonilla</h4>
+            <p>E-mail: oherrera84@outlook.com Cel: +57 3013918435</p>
+        </footer>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
